@@ -15,3 +15,5 @@ The Random Forest model has been saved as the "bestModel.pkl" pickle file. A fal
 A docker image is created containing all the required files and the docker image is pushed to an Azure Container Registry. A web app is created on Azure to run the Credit Risk Prediction Model.
 
 The Docker file, the best model and other necessary files are in the folder - CreditRiskModelingDocker.
+
+A screenshot of the version1 of the web app "Version1_Screenshot.png" contains the snapshot where a sample file containing some of the records are fed into the model through the "defaultsamples.csv" file and the predictions are returned by the model in the section "Response body" where 1 means credit default and 0 means no credit default. 
